@@ -74,7 +74,10 @@ namespace CasterUnitCore
             throw new NotImplementedException();
         }
 
-        public int Variable => throw new NotImplementedException();
+        public int get_Variable(string Variable_type, string Component)
+        {
+            throw new NotImplementedException();
+        }
 
         #endregion
     }
